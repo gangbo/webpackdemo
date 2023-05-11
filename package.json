@@ -1,0 +1,27 @@
+{
+  "name": "y2mate",
+  "version": "1.0.0",
+  "description": "youtube video download",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "push": "git add . && git commit -m 'update' && git push origin master"
+  },
+  "author": "gary",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-loader": "^4.2.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.15.0",
+    "webpack-obfuscator": "^3.5.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21"
+  }
+}
